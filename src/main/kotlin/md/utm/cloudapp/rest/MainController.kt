@@ -13,7 +13,7 @@ class MainController {
     fun root(): Map<String, String> {
         log.debug("GET / -> root endpoint accessed")
         return mapOf(
-            "app" to "cloud-app",
+            "app" to "cloud-application",
             "status" to "ok",
             "endpoints" to "/quotes, /quotes/{id}, /quotes/random, /quotes/author/{author}, /quotes/stats"
         )
